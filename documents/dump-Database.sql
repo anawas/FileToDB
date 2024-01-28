@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `Documents`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `Documents` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `filename` varchar(100) NOT NULL,
+  `filename` varchar(255) NOT NULL,
   `content` longblob,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
