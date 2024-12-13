@@ -1,10 +1,9 @@
 # FileToDB
 
 ## Zweck
-Zeigt, wie mit Kotlin eine Datei als Blob in eine Datenbank gespeichert wird. Eine Testdatei ist hier: `documents/master.pdf`. 
+Zeigt wie mit Kotlin eine Datei als Blob in eine Datenbank gespeichert wird. Eine Testdatei ist hier: `documents/master.pdf`. 
 
-Die Datenbank sollte die folgenden Tabelle enthalten. Einen Dump der Tabelle ist in der Datei `documents/dump-Database.sql`.
-
+Die Datenbank sollte die folgende Tabelle enthalten. Einen Dump der Tabelle ist in der Datei `documents/dump-Database.sql`.
 ```
 CREATE TABLE `Documents` (
 `id` int NOT NULL AUTO_INCREMENT,
